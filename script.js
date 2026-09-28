@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const footer = document.querySelector("footer p");
 
     if (footer) {
-        footer.innerHTML = `&copy; ${new Date().getFullYear()} Harriet Sarich. All Rights Reserved.`;
+        footer.innerHTML = `&copy; ${new Date().getFullYear()} Harriet Sarich.`;
     }
 
     const form = document.getElementById("contactForm");
